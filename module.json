@@ -1,0 +1,13 @@
+[
+  {
+    "Name": "pareach",
+    "Summary": "Murex wrapper around rust-parallel, providing ergonomic parallel loop constructs",
+    "Version": "0.1.0",
+    "Source": "pareach.mx",
+    "Dependencies": {
+      "Optional": [],
+      "Required": ["rust-parallel"],
+      "Platform": ["posix"]
+    }
+  }
+]
