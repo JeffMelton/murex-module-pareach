@@ -1,8 +1,8 @@
 #!/usr/local/bin/murex
 
 # pareach: Minimal viable Murex parallel foreach module
-# Usage: pareach <varname> { <block> }
-# Example: a %[1..3] -> pareach i { $i+3 }
+# Usage: pareach <varname> '{ <block> }'
+# Example: a %[1..3] -> pareach i '{ $i+3 }'
 
 function pareach {
     out @PARAMS[0] -> jsplit " " -> set arr
