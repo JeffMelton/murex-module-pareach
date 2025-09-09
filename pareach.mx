@@ -1,4 +1,4 @@
-#!/usr/local/bin/murex
+#!/usr/bin/env murex
 
 # pareach: Minimal viable Murex parallel foreach module
 # Usage: pareach <varname> '{ <block> }'
