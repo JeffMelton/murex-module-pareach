@@ -13,7 +13,7 @@ function pareach {
     which murex -> format csv -> set murex_path
 
     # Here we split the input array into space-separated values
-    out @PARAMS[0] -> jsplit " " -> set arr
+    out @PARAMS[0] -> set arr
 
     # This captures the function body passed in from stdin
     out @PARAMS[1..] -> set fn
